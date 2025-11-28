@@ -1,0 +1,12 @@
+[
+{
+    "username": "rahulshettyacademy",
+    "password": "learning",
+    "valid":true
+},
+{
+    "username": "belay",
+    "password": "12345",
+    "valid": false
+}
+]
