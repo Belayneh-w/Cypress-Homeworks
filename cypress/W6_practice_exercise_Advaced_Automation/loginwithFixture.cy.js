@@ -10,7 +10,7 @@
 
 describe('Login Using Fixture Data', () => {
     it('Verify successful login by checking the redirected', () => {
-        cy.fixture('loginDatas').then((data)=>{
+        cy.fixture('loginData').then((data)=>{
             cy.visit('https://rahulshettyacademy.com/loginpagePractise/')
             cy.get('#username').should('be.enabled').type(data.username)
             cy.get('#password').should('be.enabled').type(data.password)
