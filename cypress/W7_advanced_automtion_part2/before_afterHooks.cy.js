@@ -10,8 +10,8 @@ describe('before sand after hooks', () => {
     
         before(()=>{
         cy.visit("https://evangadi.com/auth/login")
-        cy.get('input[name="email"]').type("yirgabelay@gmail.com")
-        cy.get('input[name="password"]').type("#1melkamsir")
+        cy.get('input[name="email"]').type("ybelay@gmail.com")
+        cy.get('input[name="password"]').type("#1melkam")
         cy.get('button[type="submit"]').click()
         })
     it('autenticates with before and after hooks', () => {
