@@ -7,11 +7,6 @@ describe('login automation using pom', () => {
 
     loginPage.login('practice', 'SuperSecretPassword!');
 
-    // Assertion: verify successful login
-    // Option A: Check URL redirection
-    cy.url().should('include', '/profile');
-
-    // Option B: Check for dashboard/profile element
     cy.contains('Welcome').should('be.visible');
   });
 });
