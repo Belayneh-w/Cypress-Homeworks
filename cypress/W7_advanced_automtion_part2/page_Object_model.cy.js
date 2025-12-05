@@ -7,6 +7,6 @@ describe('login automation using pom', () => {
 
     loginPage.login('practice', 'SuperSecretPassword!');
 
-    cy.contains('Welcome').should('be.visible');
+    cy.contains('You logged into a secure area!').should('be.visible');
   });
 });
